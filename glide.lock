@@ -1,0 +1,23 @@
+hash: 075efa6bc28862f4561664c72e3941c3edd499c13e89dd01bbd9138fb8e87e92
+updated: 2017-06-03T19:37:35.472015017-07:00
+imports:
+- name: github.com/b3ntly/go-authhttp
+  version: 34d5e23b706f34b7025e061470c5415f29468fe9
+- name: github.com/gorilla/schema
+  version: 1c72d033473165ade8a126ba64180d76a9212dcd
+- name: github.com/hashicorp/go-cleanhttp
+  version: 3573b8b52aa7b37b9358d966a898feb387f62437
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  subpackages:
+  - difflib
+- name: github.com/stretchr/testify
+  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+  subpackages:
+  - assert
+  - require

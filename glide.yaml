@@ -1,0 +1,5 @@
+package: github.com/b3ntly/sms
+import:
+- package: github.com/hashicorp/go-cleanhttp
+- package: github.com/gorilla/schema
+- package: github.com/b3ntly/go-authhttp
